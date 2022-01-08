@@ -1,0 +1,202 @@
+
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/barlow-v5-latin-regular.woff2') format('woff2'),
+         url('../fonts/barlow-v5-latin-regular.woff') format('woff'); 
+}
+  @font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/barlow-v5-latin-900.woff2') format('woff2'), 
+         url('../fonts/barlow-v5-latin-900.woff') format('woff');
+  }
+ 
+
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/fraunces-v10-latin-regular.woff2') format('woff2'), 
+         url('../fonts/fraunces-v10-latin-regular.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/fraunces-v10-latin-900.woff2') format('woff2'), 
+         url('../fonts/fraunces-v10-latin-900.woff') format('woff'); 
+  }
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow',Arial,sans-serif;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+.container{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/*header*/
+
+.header{
+    margin-bottom: 44px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo-img {
+    width: 236px;
+    height: 26px;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-item {
+    margin-left: 33px;
+    
+}
+
+.header-link {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+/* hero */
+
+
+.hero-container {
+    background-image: url("./../images/Bitmap.jpg");background-repeat: no-repeat;
+    background-position: calc(50%) center;
+    margin-bottom: 167px;
+}
+
+.hero-box{
+    padding: 117px 0 116px 86px;
+}
+
+.hero-heading {
+    font-family: 'Fraunces',Arial,sans-serif ;
+    margin: 0;
+    font-family: Fraunces 9pt;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    width: 493px;
+    height: 145px;
+    margin-bottom: 32px;
+    color: #FEFCF7;
+    
+    
+    
+    
+}
+
+.hero-text {
+    margin: 0;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.8;
+    width: 445px;
+    height: 78px;
+    margin-bottom: 56px;
+    color: #FEFCF7;
+    opacity: 0.8;
+}
+
+.hero-button {
+    font-family: 'Fraunces',Arial,sans-serif ;
+    margin: 0;
+    width: 217px;
+    height: 56px;
+    padding: 15px 31px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #0E8784;
+    border-radius: 6px;
+    color: #FEFCF7;
+}
+
+/* collection  */
+
+.collection-container {
+  padding-top: 142px;
+    background-image: url("./../images/orqa-fon.png");
+    background-repeat: no-repeat;
+    background-position:top center ;
+    
+}
+.collection-list {
+    
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    
+}
+.collection-item {
+    text-align: center;
+    width: 255px;
+    margin: 0 15px;
+}
+.collection-img {
+    width: 255px;
+    height: 193px;
+    margin-bottom: 58px;
+}
+.collection-heading {
+
+   font-family: 'Fraunces',Arial,sans-serif ;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    margin-bottom: 28px;
+}
+.collection-text {
+    font-family: Barlow;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #333D4B;
+}
